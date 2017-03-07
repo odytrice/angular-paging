@@ -1,0 +1,8 @@
+{
+  "name": "angular-paging-example",
+  "version": "1.0.0",
+  "dependencies": {
+    "angular": "^1.6.2",
+    "bootstrap": "^3.3.7"
+  }
+}

@@ -1,0 +1,5 @@
+<ul class="pagination">
+    <li><a style="cursor:pointer" ng-click="pager.prev()">&laquo;</a></li>
+    <li ng-class="{active:pager.isCurrentPage(item)}" ng-repeat="item in pager.links()"><a style="cursor:pointer" ng-click="pager.goto(item)">{{item + 1}}</a></li>
+    <li><a style="cursor:pointer" ng-click="pager.next()">&raquo;</a></li>
+</ul>
